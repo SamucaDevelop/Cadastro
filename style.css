@@ -4,6 +4,12 @@
     border: 0;
 }
 
+.header {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
 .container {
     width: 100%;
     height: 100vh;
@@ -22,10 +28,17 @@
     flex-direction: column;
     gap: 10px;
     margin: 10px 0;
+    font-weight: bold;
 }
 
 .input {
     background: rgba(0, 0, 0, 0.1);
     padding: 10px 0;
 
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
