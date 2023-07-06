@@ -3,30 +3,34 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
     <title>Cadastro</title>
   </head>
   <body>
-    <div>
-      <h1>Cadastro</h1>
+    <div class="container">
+      <div class="content-form">
+        <div class="header">
+          <h1>Cadastro</h1>
+        </div>
+        <form class="form">
+          <fieldset>
+            <div class="field">
+              <label>Seu nome</label>
+              <input class="input" type="text" name="nome" id="nome" />
+            </div>
+
+            <div class="field">
+              <label>Seu e-mail</label>
+              <input class="input" type="text" name="e-mail" id="e-mail" />
+            </div>
+
+            <div class="field">
+              <label>Sua senha</label>
+              <input class="input" type="text" name="senha" id="senha" />
+            </div>
+          </fieldset>
+        </form>
+      </div>
     </div>
-
-    <form>
-      <fieldset>
-        <div>
-          <label>Seu nome</label>
-          <input type="text" name="nome" id="nome" />
-        </div>
-
-        <div>
-          <label>Seu e-mail</label>
-          <input type="text" name="e-mail" id="e-mail" />
-        </div>
-
-        <div>
-          <label>Sua senha</label>
-          <input type="text" name="senha" id="senha" />
-        </div>
-      </fieldset>
-    </form>
   </body>
 </html>
