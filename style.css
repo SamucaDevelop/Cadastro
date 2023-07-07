@@ -16,11 +16,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: rgb(143, 143, 143);
 }
 
 .form {
     border: 2px solid black;
     padding: 10px;
+    border-radius:15px;
+    background-color: #e2e2e2;   
 }
 
 .field {
@@ -33,7 +36,8 @@
 
 .input {
     background: rgba(0, 0, 0, 0.1);
-    padding: 10px 0;
+    padding: 10px 30px;
+    border-radius: 10px;
 
 }
 
@@ -41,4 +45,16 @@
     display: flex;
     justify-content: center;
     width: 100%;
+    border-radius: 5px;
+    background-color: rgb(200, 196, 196);
+    padding: 4px 1px;
+}
+
+.footer {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border: 3px solid rgb(215, 215, 215);
+    height: 30px;
+    background-color: rgb(215, 215, 215)
 }
