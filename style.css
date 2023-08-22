@@ -8,6 +8,9 @@
     font-family: sans-serif;
     display: flex;
     justify-content: center;
+    border: solid black 2px;
+    border-radius: 15px;
+    background-color: ;
 }
 
 .container {
@@ -17,13 +20,16 @@
     align-items: center;
     justify-content: center;
     background-color: rgb(143, 143, 143);
+    background-image: url(https://www.filmofilia.com/wp-content/uploads/2011/03/Thor+Chris+Hemsworth.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 }
 
 .form {
     border: 2px solid black;
     padding: 10px;
     border-radius:15px;
-    background-color: #e2e2e2;   
 }
 
 .field {
@@ -46,7 +52,6 @@
     justify-content: center;
     width: 100%;
     border-radius: 5px;
-    background-color: rgb(200, 196, 196);
     padding: 4px 1px;
 }
 
@@ -58,3 +63,6 @@
     height: 30px;
     background-color: rgb(215, 215, 215)
 }
+
+
+    
